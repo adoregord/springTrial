@@ -22,6 +22,7 @@ public class BookService {
     }
 
     public List<Book> getItem(){
+        System.out.println("Halo Dunia");
         return bookRepository.findAll();
     }
 
